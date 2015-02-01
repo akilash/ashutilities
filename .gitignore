@@ -1,0 +1,9 @@
+*.xccheckout
+xcuserdata
+DerivedData/
+build/
+.DS_Store
+.idea
+*.lock
+!Podfile.lock
+*.moved-aside
