@@ -15,6 +15,8 @@
 		E421B7451A7EB315002A430D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E421B7431A7EB315002A430D /* LaunchScreen.xib */; };
 		E421B7511A7EB315002A430D /* AshUtilitiesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E421B7501A7EB315002A430D /* AshUtilitiesTests.m */; };
 		E421B75C1A7EB848002A430D /* UIColor+AAExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = E421B75B1A7EB848002A430D /* UIColor+AAExtras.m */; };
+		E4AFC2281AAF7BDE0089BF48 /* AAUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = E4AFC2271AAF7BDE0089BF48 /* AAUtilities.m */; };
+		E4AFC22C1AAF7E230089BF48 /* AABaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E4AFC22B1AAF7E230089BF48 /* AABaseTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,10 @@
 		E421B7501A7EB315002A430D /* AshUtilitiesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AshUtilitiesTests.m; sourceTree = "<group>"; };
 		E421B75A1A7EB848002A430D /* UIColor+AAExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+AAExtras.h"; path = "Classes/Categories/UIColor+AAExtras.h"; sourceTree = "<group>"; };
 		E421B75B1A7EB848002A430D /* UIColor+AAExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+AAExtras.m"; path = "Classes/Categories/UIColor+AAExtras.m"; sourceTree = "<group>"; };
+		E4AFC2261AAF7BDE0089BF48 /* AAUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AAUtilities.h; path = Classes/AAUtilities.h; sourceTree = "<group>"; };
+		E4AFC2271AAF7BDE0089BF48 /* AAUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AAUtilities.m; path = Classes/AAUtilities.m; sourceTree = "<group>"; };
+		E4AFC22A1AAF7E230089BF48 /* AABaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AABaseTableViewCell.h; path = Classes/View/AABaseTableViewCell.h; sourceTree = "<group>"; };
+		E4AFC22B1AAF7E230089BF48 /* AABaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AABaseTableViewCell.m; path = Classes/View/AABaseTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +133,8 @@
 			isa = PBXGroup;
 			children = (
 				E421B75E1A7EB890002A430D /* Categories */,
+				E4AFC2291AAF7C930089BF48 /* Other */,
+				E4AFC22D1AAF7E320089BF48 /* Views */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -138,6 +146,32 @@
 				E421B75B1A7EB848002A430D /* UIColor+AAExtras.m */,
 			);
 			name = Categories;
+			sourceTree = "<group>";
+		};
+		E4AFC2291AAF7C930089BF48 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				E4AFC2261AAF7BDE0089BF48 /* AAUtilities.h */,
+				E4AFC2271AAF7BDE0089BF48 /* AAUtilities.m */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		E4AFC22D1AAF7E320089BF48 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E4AFC22E1AAF7E410089BF48 /* Base */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		E4AFC22E1AAF7E410089BF48 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				E4AFC22A1AAF7E230089BF48 /* AABaseTableViewCell.h */,
+				E4AFC22B1AAF7E230089BF48 /* AABaseTableViewCell.m */,
+			);
+			name = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,6 +274,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4AFC22C1AAF7E230089BF48 /* AABaseTableViewCell.m in Sources */,
+				E4AFC2281AAF7BDE0089BF48 /* AAUtilities.m in Sources */,
 				E421B73A1A7EB315002A430D /* AppDelegate.m in Sources */,
 				E421B7371A7EB315002A430D /* main.m in Sources */,
 				E421B75C1A7EB848002A430D /* UIColor+AAExtras.m in Sources */,
@@ -438,6 +474,7 @@
 				E421B7561A7EB315002A430D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E421B7571A7EB315002A430D /* Build configuration list for PBXNativeTarget "AshUtilitiesTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +483,7 @@
 				E421B7591A7EB315002A430D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
