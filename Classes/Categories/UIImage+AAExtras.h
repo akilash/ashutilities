@@ -10,4 +10,6 @@
 
 @interface UIImage (AAExtras)
 
++ (UIImage *)maskImage:(UIImage *)image withMask:(UIImage *)maskImage;
+
 @end
