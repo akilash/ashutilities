@@ -12,4 +12,6 @@
 
 + (UIImage *)maskImage:(UIImage *)image withMask:(UIImage *)maskImage;
 
++ (UIImage *)imageFromColor:(UIColor *)color;
+
 @end
