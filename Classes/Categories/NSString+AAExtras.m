@@ -10,4 +10,9 @@
 
 @implementation NSString (AAExtras)
 
+- (NSString *)trimWhitespace {
+	
+	return [self stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]];
+}
+
 @end

@@ -10,4 +10,6 @@
 
 @interface NSString (AAExtras)
 
+- (NSString *)trimWhitespace;
+
 @end
